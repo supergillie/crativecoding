@@ -18,8 +18,8 @@
 
 			for (var horisont = 0; horisont < 5; horisont++) {
 				for (var vertikal = 0; vertikal < 5; vertikal++) {
-					let horisontpos = objwidth*horisont*2  
-					let vertikalpos = objheight*vertikal*2  
+					let horisontpos = objwidth*horisont*2 +objwidth/2 
+					let vertikalpos = objheight*vertikal*2  +objwidth/2
  					context.beginPath();
  					context.rect(horisontpos,vertikalpos,objwidth, objheight);
 					context.stroke();
