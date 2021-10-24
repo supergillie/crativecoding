@@ -7,56 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/pekr/Downloads/MaBas3VT21laboration.m",
-			"settings":
-			{
-				"buffer_size": 20171,
-				"encoding": "Western (Windows 1252)",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-			]
-		},
-		{
-			"contents": " ",
-			"settings":
-			{
-				"buffer_size": 1,
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					1,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "sketch-01.js",
-			"settings":
-			{
-				"buffer_size": 869,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "start.html",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -90,6 +40,9 @@
 	},
 	"file_history":
 	[
+		"/Users/pekr/projects/crativecoding/sketch-01.js",
+		"/Users/pekr/projects/crativecoding/start.html",
+		"/Users/pekr/Downloads/MaBas3VT21laboration.m",
 		"/Users/pekr/Documents/workspace/maventest/pk/src/test/java/pkpack/AppTest.java",
 		"/Documents/Jenkins, From Zero To Hero Become a DevOps Jenkins Master/Jenkins, From Zero To Hero Become a DevOps Jenkins Master/[Tutsgalaxy.com] - Jenkins, From Zero To Hero Become a DevOps Jenkins Master/13. Jenkins Pipeline - Jenkinsfile/1.1 Pipeline.zip/first-pipeline",
 		"/Users/pekr/Documents/workspace/docker/jenkins/docker-compose.yml",
@@ -134,127 +87,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/pekr/Downloads/MaBas3VT21laboration.m",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3467,
-								3467
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Objective-C/Objective-C.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 8917.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sketch-01.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 869,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "start.html",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -332,7 +164,7 @@
 	{
 	},
 	"show_minimap": false,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,

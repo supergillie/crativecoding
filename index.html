@@ -1,0 +1,46 @@
+<html>
+	<body>
+		<canvas width="100%" height="100%">
+
+		<script>
+
+			let canvas = document.querySelector('canvas');
+			let context = canvas.getContext('2d');
+
+			let objwidth = 10;
+			let objheight = 10;
+
+
+         	window.addEventListener('resize', resizeCanvas, false);
+          	window.addEventListener('orientationchange', resizeCanvas, false);
+          	resizeCanvas();
+
+
+			for (var horisont = 0; horisont < 5; horisont++) {
+				for (var vertikal = 0; vertikal < 5; vertikal++) {
+					let horisontpos = objwidth*horisont*2  
+					let vertikalpos = objheight*vertikal*2  
+ 					context.beginPath();
+ 					context.rect(horisontpos,vertikalpos,objwidth, objheight);
+					context.stroke();
+				}
+			}
+
+	      	function resizeCanvas() {
+	        	canvas.width = window.innerWidth;
+    	    	canvas.height = window.innerHeight;
+    	    	objwidth = window.innerWidth /11;
+    	    	objheight = window.innerHeight /11;
+
+    	    	console.log("cansvasbredd: " + canvas.width);
+    	    	console.log("cansvashöjd: " + canvas.height);
+    	    	console.log("objbredd: " + objwidth);
+	      		console.log("objhöjd: " + objheight);
+      		}
+
+		</script>
+
+		</canvas>
+
+	</body>
+</html>
